@@ -1,0 +1,80 @@
+body{
+    font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+
+}
+.principal-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#controls{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parameters-container{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+h1{
+    color: #2c3e50;
+
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+    background-color: #2980b9;
+  }
+
+  #outputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  #chart, #threeChart {
+    width: 90%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #threeChart{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plot-container{
+    display: flex;
+  }
+
+  footer{
+    margin-top: 60px;
+  }
